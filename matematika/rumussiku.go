@@ -2,7 +2,7 @@ package matematika
 
 import "fmt"
 
-func {
+func main{
 	var (
 		luas float32
 		alas float32
