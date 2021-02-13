@@ -4,7 +4,16 @@ import "fmt"
 
 func main() {
 	var absen = "zain"
-
+	
+	fmt.Printf("ketik nama\n")
+	fmt.Printf("Berikut nama yang tersedia:\n")
+	fmt.Printf("1.zain\n")
+	fmt.Printf("2.nanda wido\n")
+	fmt.Printf("3.maulana\n")
+	fmt.Printf("4.terserah kamu\n")
+	fmt.Printf("ketik nama sesuai yang ada di list ya!\n")
+	fmt.Scan(&absen)
+	
 	if absen == "nanda wido" {
 		fmt.Println("Lagi main PUBG")
 	} else if absen == "maulana" {
